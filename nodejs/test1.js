@@ -2,13 +2,13 @@ console.log("-----------------");
 console.log("HELLO WORLD");
 console.log("-----------------");
 
-var x = true;
+var x = !true;
 console.log(x);
 
 if (x) {
     truthy();
 } else {
-    falsy()
+    falsy();
 }
 
 function truthy() {
