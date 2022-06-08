@@ -7,33 +7,46 @@
     <title>Instructions</title>
     <link rel="stylesheet" href="intro.css">
 </head>
-<body>
-    <h1>Instructions</h1>
-    <h2>Register Gesture</h2>
-    <ol>Steps to register a gesture to program
-        <li>Turn on camera.</li>
-        <img src="img/main menu_start.png" alt="Turn on camera here">
-        <li>Raise hand gesture to camera.</li>
-        <li>Press Register Gesture button.</li>
-        <img src="img/main menu_start.png" alt="Register gesture button">
-        <li>Naming window will show up.</li>
-        <img class="large" src="img/main menu cam_on_name.png" alt="Naming window">
-        <li>Give memorable name and press <em> save.</em></li>
-        <li>Keep gesture up for the 5 second count.</li>
-        <li>A new gesture in <em class="menu">Profile Menu</em>  with the created name will now be available to be used in a profile.</li>
-    </ol>
-    <h2>Profile Menu</h2>
-    <p>From here a profile can be chosen, created or editted.</p>
-    <h2>Actions Menu</h2>
-    <p>From here actions can be created to later be mapped to a profile and gesture in the <em class="menu">Profiles Menu.</em></p>
-    <img src="img/actions menu.png" alt="actions menu">
-    <p>From here you can choose a file to map to a gesture.</p>
-    <img src="img/file browser.png" alt="actions file browser">
-    <p>From here a button shortcut can be mapped and saved for a gesture.</p>
-    <img src="img/macros menu.png" alt="actions macros">
-    <h3>General Program use</h3>
-    <p>After choosing a profile from the profile menu with the desired gesture mappings. Turn on camera and hold up the gesture mapped to that profile to do the desired function.</p>
-    <p>If the gesture being read is not being recognized as quickly or is being too generous then go into the settings and modify the <em>Hand Match Confidence.</em> Closer the number to 1, the more strict the gesture will be compared to the gesture in the profile.</p>
-    <img src="img/settings_confidence.png" alt="Confidence value">
+<body style="background-color: rgb(255, 255, 255)">
+    <div class="left-side-bar">
+        <nav>
+            <a href="#Prof">Profile Menu</a>
+            <a href="#Reg">Register Gesture</a>
+            <a href="#Act">Actions</a>
+            <a href="#GU">General Use</a>
+        </nav>
+
+    </div>
+    <div>
+        <h1>Instructions</h1>
+        <h2 id="Prof">Profile Menu</h2>
+        <p>From here a profile can be chosen, created or editted.</p>
+        <h2 id="Reg">Register Gesture</h2>
+        <ol>Steps to register a gesture to program
+            <li>Turn on camera.</li>
+            <img src="img/main menu_start.png" alt="Turn on camera here">
+            <li>Raise hand gesture to camera.</li>
+            <li>Press Register Gesture button.</li>
+            <img src="img/main menu_start.png" alt="Register gesture button">
+            <li>Naming window will show up.</li>
+            <img class="large" src="img/main menu cam_on_name.png" alt="Naming window">
+            <li>Give memorable name and press <em> save.</em></li>
+            <li>Keep gesture up for the 5 second count.</li>
+            <li>A new gesture in <em class="menu">Profile Menu</em>  with the created name will now be available to be used in a profile.</li>
+        </ol>
+        <h2 id="Act">Actions Menu</h2>
+        <p>From here actions can be created to later be mapped to a profile and gesture in the <em class="menu">Profiles Menu.</em></p>
+        <img src="img/actions menu.png" alt="actions menu">
+        <p>From here you can choose a file to map to a gesture.</p>
+        <img src="img/file browser.png" alt="actions file browser">
+        <p>From here a button shortcut can be mapped and saved for a gesture.</p>
+        <img src="img/macros menu.png" alt="actions macros">
+        
+        <h3 id="GU">General Use</h3>
+        <p>After choosing a profile from the profile menu with the desired gesture mappings. Turn on camera and hold up the gesture mapped to that profile to do the desired function.</p>
+        <p>If the gesture being read is not being recognized as quickly or is being too generous then go into the settings and modify the <em>Hand Match Confidence.</em> Closer the number to 1, the more strict the gesture will be compared to the gesture in the profile.</p>
+        <img src="img/settings_confidence.png" alt="Confidence value">
+        <a href="#">TOP</a>
+    </div>
 </body>
 </html>
