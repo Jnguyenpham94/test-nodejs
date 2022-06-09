@@ -1,4 +1,26 @@
 
+/*Planned side bar stuff*/
+.left-side-bar {
+    height: 100%; /* 100% Full-height */
+    width: auto; /* 0 width - change this with JavaScript */
+    /*position: fixed;*/ /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: auto;
+    background-color: greenyellow;
+    padding: 10px;
+}
+
+/* main text segment*/
+.main {
+    background-color: red;
+}
+
+/*Button to go to top --- PLANNED TO MAKE IT MOVE WITH SCREEN*/
+.topbtn {
+    position: relative;
+    color: red;
+}
+
 h1 {
     color: red;
 }
