@@ -1,42 +1,45 @@
-
 /*Planned side bar stuff*/
-.left-side-bar {
-    height: 100%; /* 100% Full-height */
-    width: auto; /* 0 width - change this with JavaScript */
-    /*position: fixed;*/ /* Stay in place */
-    z-index: 1; /* Stay on top */
-    top: auto;
-    background-color: greenyellow;
-    padding: 10px;
+.top-bar {
+  height: 100%; /* 100% Full-height */
+  width: 1; /* 0 width - change this with JavaScript */
+  /*position: fixed;*/ /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: auto;
+  background-color: greenyellow;
+  padding: 5px;
 }
 
 /* main text segment*/
 .main {
-    background-color: red;
+  font-size: larger;
+}
+
+body {
+  background-color: whitesmoke;
 }
 
 /*Button to go to top --- PLANNED TO MAKE IT MOVE WITH SCREEN*/
 .topbtn {
-    position: relative;
-    color: red;
+  position: relative;
+  color: red;
 }
 
 h1 {
-    color: red;
+  color: red;
 }
 
 h2 {
-    color: green;
+  color: green;
 }
 
 h3 {
-    color:darkblue;
+  color: darkblue;
 }
 
 .menu {
-    color: blue;
+  color: blue;
 }
 
 .large {
-    width: 600px;
+  width: 600px;
 }
