@@ -1,8 +1,7 @@
-/*Planned side bar stuff*/
+/*Planned side-bar or top-bar stuff*/
 .top-bar {
   height: 100%; /* 100% Full-height */
-  width: 1; /* 0 width - change this with JavaScript */
-  /*position: fixed;*/ /* Stay in place */
+  width: 1;
   z-index: 1; /* Stay on top */
   top: auto;
   background-color: greenyellow;
@@ -21,6 +20,10 @@ body {
 /*Button to go to top --- PLANNED TO MAKE IT MOVE WITH SCREEN*/
 .topbtn {
   position: relative;
+  color: red;
+}
+
+.sweet {
   color: red;
 }
 

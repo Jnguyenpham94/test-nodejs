@@ -55,14 +55,23 @@
       <h3 id="GU">General Use</h3>
       <p>
         After choosing a profile from the profile menu with the desired gesture
-        mappings. Turn on camera and hold up the gesture mapped to that profile
+        mappings <em class="sweet">OR</em> using the create profile button to create your own named profiles and mappings. Turn on camera and hold up the gesture mapped to that profile
         to do the desired function.
       </p>
       <p>
-        If the gesture being read is not being recognized as quickly or is being
-        too generous then go into the settings and modify the
-        <em>Hand Match Confidence.</em> Closer the number to 1, the more strict
-        the gesture will be compared to the gesture in the profile.
+        If the gesture is not being recognized or is being too
+        generous in recognizing the gesture then go into the settings and modify
+        the
+        <em>Hand Match Confidence.</em>
+        <ol> 
+          <li> Closer to 1, the more strict the gesture will be compared to the gesture in the profile.
+          </li>
+          <li>Closer to 0, more strict it will be in recognizing a particular gesture.
+          </li>
+          <li>
+            NOTE: we found a number from <em class="sweet">.6 to .75</em> to be the sweet spot.
+          </li>
+        </ol>
       </p>
       <img src="img/settings_confidence.png" alt="Confidence value" />
       <a id="topbtn" href="#">TOP</a>
